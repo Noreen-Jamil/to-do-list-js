@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Architects+Daughter&family=Lemonada:wght@600&family=M+PLUS+1p:wght@500&family=Patrick+Hand&family=Taviraj:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	
+	<main>
+		<div id="transparency"></div>
+		<h1>To-Do list</h1>
+		<div id="buttons-and-input">
+			<input type="text" name="to-do" id="list-item-input" placeholder="Enter To-Do" maxlength="50">
+			<button onclick="addItem()">Add</button>
+			<button id="remove" onclick="removeItem()">Remove Item</button>
+			<button id="delete" onclick="deleteItem()">Delete Item</button>
+		</div>
+		<div id="display-list">
+			<h2>Tasks</h2>
+			<ol>
+				
+			</ol>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
